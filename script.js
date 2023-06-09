@@ -5,7 +5,7 @@ let input = document.querySelector('#input');
 let output = document.querySelector('#output');
 
 const allowedChars = ['!', '%', '^', '*', '(', ')', '[', ']', '<', '>', '+', '-', '/'];
-const responses = ['Output: Nice try 🫵', 'Output: Nope ❌', 'Output: Nada', 'Output: Try Again with numbers this time', 'Output: document.querySelector(\'#output\').textContent = responses[randInt];'];
+const responses = ['Output: Nice try 🫵', 'Output: Nope ❌', 'Output: Nada', 'Output: Try again with numbers this time', 'Output: document.querySelector(\'#output\').textContent = responses[randInt];', 'Output: Importing numpy...'];
 
 btn.addEventListener('click', calc);
 document.onkeyup = function(eventKeyName) {
