@@ -1,0 +1,38 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+label, p {
+    font-size: 1.25rem;
+}
+
+#input {
+    border: 0.25px solid black;
+    border-radius: 7px;
+    font-size: 1.025rem;
+    margin-left: 10px;
+}
+
+#submit {
+    font-size: 1.05rem;
+    border-radius: 7px;
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    outline: 0;
+    border: 2px solid white;
+    cursor: pointer;
+    padding: 10px;
+    padding-inline: 20px;
+    margin-left: 10px;
+}
